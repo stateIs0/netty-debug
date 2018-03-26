@@ -1,3 +1,5 @@
+# 个人 clone 的 Netty 源码，用于自己 debug ，写注释等。
+
 # Netty Project
 
 Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers & clients.
