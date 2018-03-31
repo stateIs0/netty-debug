@@ -1,3 +1,11 @@
+
+````java
+public Bootstrap resolver(AddressResolverGroup<?> resolver) {
+    this.resolver = (AddressResolverGroup<SocketAddress>) (resolver == null ? DEFAULT_RESOLVER : resolver);
+    return this;
+}
+````
+
 # 个人 clone 的 Netty 源码，用于自己 debug ，写注释等。
 
 # Netty Project
